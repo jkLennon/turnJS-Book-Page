@@ -1,0 +1,21 @@
+body{
+    overflow: hidden;
+    background: deepskyblue;
+}
+
+#book{
+    margin: 5% auto;
+    width: 800px;
+    height: 400px;
+}
+
+#book .turn-page{
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#book div{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}

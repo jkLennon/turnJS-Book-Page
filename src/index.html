@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Awesome Book Page Flip Effect With Turn js</title>
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+        <div id="book">
+            <div style="background-image: url('./images/2.jpg')"></div>
+            <div style="background-image: url('./images/3.jpg')"></div>
+            <div style="background-image: url('./images/4.jpg')"></div>
+            <div style="background-image: url('./images/2.jpg')"></div>
+            <div style="background-image: url('./images/3.jpg')"></div>
+            <div style="background-image: url('./images/4.jpg')"></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/turn.min.js"></script>
+        <script>
+            $('#book').turn({gradients: true, acceleration: true});
+        </script>
+    </body>
+</html>
